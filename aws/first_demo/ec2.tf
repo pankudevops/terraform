@@ -4,8 +4,8 @@ resource "aws_instance" "myawsserver" {
 
   tags = {
     Name = "Gagandeep-aws-ec2-instance-Nomura v2"
-    Env = "Prod"
-    Owner = "Gagandeep"
+    Env = "Production"
+    Owner = "Pankaj"
   }
 }
 
