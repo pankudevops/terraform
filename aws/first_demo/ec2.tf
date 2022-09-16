@@ -3,9 +3,9 @@ resource "aws_instance" "myawsserver" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "Gagandeep-aws-ec2-instance-Nomura v2"
-    Env = "Production"
-    Owner = "Pankaj-Git16sep"
+    Name = "Pankaj-aws-ec2-instance-Nomura v2"
+    Env = "Dev"
+    Owner = "PankajGit16sep"
   }
 }
 
