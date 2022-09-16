@@ -5,7 +5,7 @@ resource "aws_instance" "myawsserver" {
   tags = {
     Name = "Pankaj-aws-ec2-instance-Nomura v2"
     Env = "Dev"
-    Owner = "PankajGit16sep"
+    Owner = "PankajGit"
   }
 }
 
